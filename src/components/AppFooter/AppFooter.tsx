@@ -2,7 +2,7 @@ import React from 'react';
 
 const AppFooter = () => {
     return (
-        <div className='drop-shadow-lg' style={{ height: '8vh', backgroundColor: 'red' }}>
+        <div className='drop-shadow-lg' style={{ backgroundColor: 'red' }}>
             Header
         </div>
     );

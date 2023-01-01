@@ -12,10 +12,12 @@ function App() {
     <React.Fragment>
       <AppHeader />
       <BrowserRouter>
-        <Routes>
-          <Route path='contact' element={<ContactPage />} />
-          <Route path='' element={<HomePage />} />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path='contact' element={<ContactPage />} />
+            <Route path='' element={<HomePage />} />
+          </Routes>
+        </main>
       </BrowserRouter>
       <AppFooter />
     </React.Fragment>
